@@ -7,6 +7,8 @@ public class Main {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		
+		System.out.print("Digite quantas linhas e colunas da matriz: ");
+		
 		int M = sc.nextInt();
 		int N = sc.nextInt();
 		int[][] mat = new int[M][N];
